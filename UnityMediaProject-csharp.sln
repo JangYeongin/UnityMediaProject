@@ -1,6 +1,8 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
+Project("{132B05B7-019E-B545-25DB-870DEBCD8BBE}") = "UnityMediaProject", "Assembly-CSharp-firstpass-vs.csproj", "{FA0E6169-6BF9-175F-8F6C-EEE9E7366646}"
+EndProject
 Project("{132B05B7-019E-B545-25DB-870DEBCD8BBE}") = "UnityMediaProject", "Assembly-CSharp-vs.csproj", "{D5716F6D-AF10-82BD-F045-E2B5B6184613}"
 EndProject
 Project("{132B05B7-019E-B545-25DB-870DEBCD8BBE}") = "UnityMediaProject", "Assembly-CSharp-Editor-vs.csproj", "{271B5BAA-0E36-2B44-225A-550CB13A3ECA}"
@@ -11,6 +13,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA0E6169-6BF9-175F-8F6C-EEE9E7366646}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA0E6169-6BF9-175F-8F6C-EEE9E7366646}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA0E6169-6BF9-175F-8F6C-EEE9E7366646}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA0E6169-6BF9-175F-8F6C-EEE9E7366646}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D5716F6D-AF10-82BD-F045-E2B5B6184613}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D5716F6D-AF10-82BD-F045-E2B5B6184613}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5716F6D-AF10-82BD-F045-E2B5B6184613}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -23,7 +29,7 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-																		GlobalSection(MonoDevelopProperties) = preSolution
+																																																																								GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
